@@ -1,0 +1,99 @@
+
+#map {
+  height: 640px; 
+  width: 100%;
+}
+
+
+
+body {
+    margin: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+#header {
+    width: 100%;
+    background-color: #330000;
+    padding-top: 5px;
+}
+
+h1 {
+    color: ghostwhite;
+    margin-left: 15px;
+    display: inline;
+    font-size: 20px;
+    
+}
+
+#icon {
+    margin-left: 30px;
+    display: inline;
+    margin-bottom: 10px;
+}
+
+.menu {
+/*    margin-bottom: 10px;*/
+    margin-top: 5px;
+}
+
+.menuItem {
+    font-size: 20px;
+}
+
+.nav>li>a {
+    padding: 2px 15px;
+}
+
+.nav>li>a:focus, .nav>li>a:hover {
+    background-color: gainsboro;
+    color: #333;
+}
+
+a {
+    color: darkgrey;
+}
+
+a p {
+    font-size: 10px;
+}
+
+#label {
+    margin-left: 30px;
+}
+
+h4 {
+    color: #330000;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.leaflet-popup-content p{
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+b {
+    display: block;
+    text-align: center;
+    margin-top: 1px;
+    font-size: 16px;
+}
+
+.legend {
+    line-height: 18px;
+    color: #555;
+}
+.legend i {
+    width: 18px;
+    height: 18px;
+    float: left;
+    margin-right: 8px;
+    opacity: 0.7;
+}
+    
+.info {
+    padding: 6px 8px;
+    background: white;
+    background: rgba(255,255,255,0.8);
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    border-radius: 5px;
+}

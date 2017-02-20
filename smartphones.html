@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>World of UX - Internet Speed</title>
+         <link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css"/>
+        <link rel="stylesheet" type="text/css" href="css/map.css">
+    
+    </head>
+    <body>
+        <div id="header">
+            <img src="img/globe_white.png" id="icon" width="20" height="20" alt="globe">
+            <h1>World of UX</h1>
+        </div>
+        
+        <div class="menu">
+        <ul class="nav nav-tabs">
+            <li><a href="index.html" class="menuItem">Average Internet Speed (Mbps)<p>Source: akamai's State of The Internet, Q2 2016 report.</p></a></li>
+            <li><a href="users.html" class="menuItem">Internet Users (% of Population)<p>Source: World Bank Data, 2015.</p></a></li>
+            <li class="active"><a href="smartphones.html" class="menuItem">Smartphone Users (% of Population)<p>Source: Pew Research, Spring 2015 Global Attitudes survey.</p></a></li>
+        </ul>
+        </div>
+        
+        
+        <div id="map"></div>
+        
+  <!--      Sources: 
+        Internet Data Speeds: https://www.akamai.com/us/en/multimedia/documents/state-of-the-internet/akamai-state-of-the-internet-connectivity-report-q2-2016.pdf
+        Internet Users % of Population: http://data.worldbank.org/indicator/IT.NET.USER.P2?page=6&cid=GPD_44 -->
+        
+        
+        <script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js">
+        </script>
+        <script src="http://code.jquery.com/jquery-1.11.3.min.js">
+        </script>
+        <script src="js/leaflet-providers.js"></script>
+        <script type="text/javascript" src="js/countries.js"></script>
+        <script src="js/smartphones.js"></script>
+    </body>
+</html>
